@@ -14,14 +14,14 @@ int main()
     cin >> amount;
     cin >> balance;
 
-    if(amount%5!=0 || amount+0.50>balance)
+    if (amount % 5 != 0 || amount + 0.50 > balance)
     {
-     cout<<balance<<endl;
+        cout << balance << endl;
     }
-     else
-     {
-    cout << withdraw(amount, balance) << endl;    
-     }
-    
+    else
+    {
+        cout << withdraw(amount, balance) << endl;
+    }
+
     return 0;
 }
